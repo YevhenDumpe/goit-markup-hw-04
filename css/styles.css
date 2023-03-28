@@ -4,7 +4,6 @@ body {
 }
 :root {
     --main-title-color: #ffffff;
-    --second-title-color: #2E2F42;
     --address-title-color: #434455;
     --paragraph-title-font-family: 'Roboto', sans-serif;
     --color-cloud: #f4f4fd;
@@ -267,13 +266,13 @@ font-family: 'Raleway', sans-serif;
 
 .doing-titel {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-       text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--color-grey);
-        margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-grey);
+    margin-bottom: 72px;
 }
 /*------------- team ---------------*/
 
@@ -292,6 +291,17 @@ font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     color: var(--color-grey);
     margin-bottom: 72px;
+}
+
+.customers-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-grey);
+margin-bottom: 72px;
 }
 
 .team-list {
@@ -339,17 +349,49 @@ font-family: 'Raleway', sans-serif;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: tomato;
+    background-color: var(--color-iris);
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
+.team-soc-icon {
+    
+}
+
 .team-soc-link:hover,:focus {
  background-color: teal;
 }
 
+/*-------------customers--------------*/
+
+.customers {
+}
+.container {
+}
+.customers-title {
+}
+.customers-company-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-company {
+    width: 168px;
+    height: 88px;
+}
+
+.customers-company-link {
+    width: 100%;
+    height: 100%;
+    background-color: tomato;
+    display: block;
+    border: 1px ;
+
+
+}
 
 /*------------- title ---------------*/
 
@@ -412,6 +454,8 @@ font-family: 'Raleway', sans-serif;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+
+
 
 
 /*------------- filters---------------*/
