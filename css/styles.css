@@ -368,8 +368,7 @@ margin-bottom: 72px;
 
 .customers {
 }
-.container {
-}
+
 .customers-title {
 }
 .customers-company-list {
@@ -378,19 +377,38 @@ margin-bottom: 72px;
   gap: 24px;
 }
 
+.customers-name {
+    
+}
+
 .customers-company {
-    width: 168px;
-    height: 88px;
+    
+}
+
+.company-icon {
+    display: block;
+        width: 104px;
+        height: 56px;
+        fill: #8E8F99;
 }
 
 .customers-company-link {
-    width: 100%;
-    height: 100%;
-    background-color: tomato;
-    display: block;
-    border: 1px ;
+        height: 88px;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        border: 1px solid#8E8F99;
+        border-radius: 4px;
+        padding: 16px 32px;
+}
 
+.customers-company-link:is (:hover, :focus) .company-icon {
+    fill: var(--color-background);
+    
+}
 
+.customers-company-link:is(:hover, :focus) {
+    border: 1px solid var(--color-background) ;
 }
 
 /*------------- title ---------------*/
