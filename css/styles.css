@@ -52,6 +52,7 @@ img{
 
 .link {
     text-decoration: none;
+    display: block;
 }
 .list {
     list-style: none;
@@ -245,6 +246,7 @@ font-family: 'Raleway', sans-serif;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     padding: 12px 24px;
     border: 1px solid var(--color-cornflower);
 }
@@ -418,16 +420,19 @@ margin-bottom: 72px;
     align-items: center;
     justify-content: center;
     border: 1px solid var(--color-light-slate);
-    border-radius: 5px;
+    border-radius: 4px;
     fill: var(--color-light-slate);
 }
 
-.customers-link:is(:hover, :focus) {
-    border: 1px solid var(--color-ocean) ;
-}
+
 
 .customers-link:is(:hover, :focus) {
+    border: 1px solid var(--color-ocean);
     fill: var(--color-ocean);
+}
+
+.customers-link-icon {
+    fill:currentColor;
 }
 
 /*------------- title ---------------*/
@@ -459,8 +464,10 @@ margin-bottom: 72px;
     mix-blend-mode: normal;
     }
 
-.link-shadow:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); display: block;}
+.link-shadow:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
   
 
 .portfolio-container {
